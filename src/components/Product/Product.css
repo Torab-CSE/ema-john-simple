@@ -1,0 +1,32 @@
+.product{
+    display: flex;
+    flex-direction: row;
+    margin:5px;
+    padding: 5px;
+    border-bottom:1px solid gray ;
+}
+
+.product-detail{
+    padding-left: 20px;
+}
+.product-detail h5{
+    font-weight: 400;
+    font-size: 15px;
+    color:blue;
+}
+.product-detail p{
+    font-size: small;
+    font-weight: 600;
+}
+.product-detail button{
+    font-weight:600;
+    width:180px;
+    margin-top: 20px;
+    padding:5px;
+    background: goldenrod;
+    border:1px solid black;
+    border-radius: 5px;
+}
+.product-detail button:hover{
+    background: green;
+}
